@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		A2DC532A222EC81300AAE5C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC5329222EC81300AAE5C3 /* AppDelegate.swift */; };
-		A2DC532C222EC81300AAE5C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC532B222EC81300AAE5C3 /* ViewController.swift */; };
 		A2DC532F222EC81300AAE5C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DC532D222EC81300AAE5C3 /* Main.storyboard */; };
 		A2DC5331222EC81500AAE5C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2DC5330222EC81500AAE5C3 /* Assets.xcassets */; };
 		A2DC5334222EC81500AAE5C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DC5332222EC81500AAE5C3 /* LaunchScreen.storyboard */; };
+		A2DC533C222EC89700AAE5C3 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC533B222EC89700AAE5C3 /* HomeController.swift */; };
+		A2DC5346222ECD0900AAE5C3 /* Ode_to_Idle_Gaming.otf in Resources */ = {isa = PBXBuildFile; fileRef = A2DC5345222ECD0900AAE5C3 /* Ode_to_Idle_Gaming.otf */; };
+		A2DC5348222F1EA500AAE5C3 /* Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC5347222F1EA500AAE5C3 /* Console.swift */; };
+		A2DC534A222F289400AAE5C3 /* ConsoleCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC5349222F289400AAE5C3 /* ConsoleCollection.swift */; };
+		A2DC534C222FBF4000AAE5C3 /* DetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC534B222FBF4000AAE5C3 /* DetailsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A2DC5326222EC81300AAE5C3 /* RetroGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DC5329222EC81300AAE5C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A2DC532B222EC81300AAE5C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A2DC532E222EC81300AAE5C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2DC5330222EC81500AAE5C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2DC5333222EC81500AAE5C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2DC5335222EC81500AAE5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2DC533B222EC89700AAE5C3 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		A2DC5345222ECD0900AAE5C3 /* Ode_to_Idle_Gaming.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ode_to_Idle_Gaming.otf; sourceTree = "<group>"; };
+		A2DC5347222F1EA500AAE5C3 /* Console.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Console.swift; sourceTree = "<group>"; };
+		A2DC5349222F289400AAE5C3 /* ConsoleCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleCollection.swift; sourceTree = "<group>"; };
+		A2DC534B222FBF4000AAE5C3 /* DetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,26 @@
 		A2DC5328222EC81300AAE5C3 /* RetroGames */ = {
 			isa = PBXGroup;
 			children = (
+				A2DC533E222ECB8F00AAE5C3 /* res */,
 				A2DC5329222EC81300AAE5C3 /* AppDelegate.swift */,
-				A2DC532B222EC81300AAE5C3 /* ViewController.swift */,
 				A2DC532D222EC81300AAE5C3 /* Main.storyboard */,
 				A2DC5330222EC81500AAE5C3 /* Assets.xcassets */,
 				A2DC5332222EC81500AAE5C3 /* LaunchScreen.storyboard */,
 				A2DC5335222EC81500AAE5C3 /* Info.plist */,
+				A2DC533B222EC89700AAE5C3 /* HomeController.swift */,
+				A2DC5347222F1EA500AAE5C3 /* Console.swift */,
+				A2DC5349222F289400AAE5C3 /* ConsoleCollection.swift */,
+				A2DC534B222FBF4000AAE5C3 /* DetailsController.swift */,
 			);
 			path = RetroGames;
+			sourceTree = "<group>";
+		};
+		A2DC533E222ECB8F00AAE5C3 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				A2DC5345222ECD0900AAE5C3 /* Ode_to_Idle_Gaming.otf */,
+			);
+			path = res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +144,7 @@
 			files = (
 				A2DC5334222EC81500AAE5C3 /* LaunchScreen.storyboard in Resources */,
 				A2DC5331222EC81500AAE5C3 /* Assets.xcassets in Resources */,
+				A2DC5346222ECD0900AAE5C3 /* Ode_to_Idle_Gaming.otf in Resources */,
 				A2DC532F222EC81300AAE5C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2DC532C222EC81300AAE5C3 /* ViewController.swift in Sources */,
+				A2DC533C222EC89700AAE5C3 /* HomeController.swift in Sources */,
+				A2DC534A222F289400AAE5C3 /* ConsoleCollection.swift in Sources */,
+				A2DC534C222FBF4000AAE5C3 /* DetailsController.swift in Sources */,
+				A2DC5348222F1EA500AAE5C3 /* Console.swift in Sources */,
 				A2DC532A222EC81300AAE5C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
